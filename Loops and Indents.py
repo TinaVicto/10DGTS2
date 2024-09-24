@@ -2,6 +2,22 @@
 # Author: Veronica Choi
 # Date: 20 September 2024
 # Version: 1 
+# TODO: 
+    # Get user input (ask the user for their name)
+    # Ask the user for two numbers
+    # add the numbers together
+
+# Ask the user for their name
+name = input("what is your name?")
+print(f"Kia ora {name}") # f stands for format. we are formating the print statement 
+
+# Ask the user for two numbers 
+num_1 = int(input("What is your favourite number"))
+num_2 = int(input("What is your favourite number"))
+
+# Add numbers together
+sum = num_1 + num_2 
+print(f"The numbers added together equal to {sum}")
 
 
 # For loops. Repeat for a set number of times. 
